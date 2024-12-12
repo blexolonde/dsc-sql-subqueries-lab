@@ -28,6 +28,8 @@ import sqlite3
 
 ```python
 # Your code here; create the connection
+conn = sqlite3.connect("data.sqlite")
+cursor = conn.cursor()
 ```
 
 ## Write an Equivalent Query using a Subquery
